@@ -1,0 +1,90 @@
+/**
+ * Created with JetBrains PhpStorm.
+ * User: misa.guo
+ * Date: 12-10-31
+ * Time: 下午3:32
+ */
+
+@charset "utf-8";
+/*** reset begin ***/
+* { margin: 0; padding: 0;}
+
+body { font-family: "Microsoft YaHei"; font-size: 14px;}
+
+.wrap { width: 1170px; margin: 0 auto; padding-top: 40px;}
+
+input,button,fieldset { border: 0 none;}
+
+input:focus { outline: 0 none;}
+
+ul{list-style-type: none;}
+
+em { font-style: normal;}
+/*** reset end ***/
+
+/* clearfix begin */
+.clearfix:after { visibility:hidden; display:block; font-size:0; content:""; clear:both; height:0; }
+* html .clearfix { zoom:1; } /* IE6 */
+*:first-child+html .clearfix { zoom:1; } /* IE7 */
+/* clearfix end */
+
+/* header begin */
+.warp{ width: 1170px; margin: 0 auto;}
+.header{ padding-top: 40px; margin-bottom: 67px;}
+.logo{ float: left; display: block; width: 356px; height: 49px; background: url(./images/logo.png); text-indent: -9999px;}
+.header ul{ float: right;}
+.header li{ float: left;}
+.header li a{ display: block; height: 50px; text-indent: -9999px; }
+.about{ width: 109px; background: url(./images/about.png);}
+.help{ width: 68px; background: url(./images/help.png);}
+.header li a:hover{ background-position: left bottom;}
+/* header end */
+
+/* main begin */
+.main{ height: 515px; padding: 25px 0 0 790px; margin-bottom: 60px; background: url(./images/main-pg.png) no-repeat; overflow: hidden;}
+.content-bg{ width: 355px; height: 416px; background-color: #000; opacity: 0.05;
+    border-radius: 8px;}
+.content{ width: 325px; height: 386px; margin: 5px; position: relative; top: -416px; padding: 8px; background-color: #F6F6F6;
+    border: 2px solid #EEE; border-radius: 4px;}
+.content fieldset{ float: left;}
+.content .login{ width: 310px; height: 126px; padding: 26px 0 0 15px; margin-bottom: 2px; background: #F8EEC1;
+    border-radius: 4px;}
+.content .text-input{ width: 282px; height: 24px; margin: 2px 2px 20px 2px; line-height: 18px; padding: 2px 4px;
+    box-shadow: inset 1px 2px 2px #DDD;
+    border-radius: 3px;}
+.content .text-input:focus{ border: 2px solid #EED18B; margin: 0 0 18px 0;
+    border-radius: 5px;}
+.content .secret{ float: left; width: 212px;}
+.content .secret:focus{ width: 212px; margin: 0 0 18px 0;}
+.content button { float: right; width: 67px; height: 28px; margin: 2px 15px 0 0; font-weight: 700;
+    font-family: Tahoma; color: #FFFFFF; background: url(./images/button.png);}
+.icon { float: left; clear: both; display: block; width: 60px; height: 14px; color: #333333;}
+.icon input { margin-right: 5px;}
+.miss { float: left; display: block; width: 56px; height: 18px; line-height: 18px; margin-left: 18px; text-decoration: none;
+    color: #0086C9; }
+.regsiter{ width: 309px; height: 224px; background: #F3F1E8; padding: 8px 0 0 16px;
+    border-radius: 4px;}
+.regsiter legend{ float: left; font-size: 24px; color: #EEA103; margin-bottom: 8px;}
+/* main end */
+
+/* footer begin */
+.footer{ border-top: 1px solid #EAEAEA; padding: 20px 0; font-size: 12px; color: #999;}
+.font{ float: left; padding-top: 2px;}
+.copyright{ padding-left: 130px; background: url(./images/footer.png) no-repeat; margin-right: 60px;}
+.font9{ font-size: 9px;}
+.contact{ margin-right: 30px;}
+.font-bookman{ font-family: "bookman old style";}
+.download{ float: right;}
+.download em{ display: block; font-size: 10px; line-height: 18px; margin-bottom: 10px;}
+.download dl{ float: left; width: 105px; text-align: center; margin-right: 10px;}
+.download dt{ font-size: 14px; font-weight: 700;}
+.download dl a{ display: block; width: 104px; height: 22px; background: url(./images/but.png) left bottom;
+    font-weight: 700; color: #FFFFFF; text-decoration: none; line-height: 22px;}
+.download dl a:hover{ background-position: left top;}
+/* footer end */
+
+
+
+
+
+
